@@ -18,3 +18,6 @@ console.table(produtos)
 
 const produtoEncontrado = produtos.find((produto) => produto.nome === "Iphone 13");
 console.log(produtoEncontrado);
+
+produtos.sort((a, b) => a.preco - b.preco);
+console.table(produtos);
