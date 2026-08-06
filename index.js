@@ -12,3 +12,9 @@ let produtos = [
         preco: 9000
     },
 ]
+
+produtos.shift()
+console.table(produtos)
+
+produtos.unshift()
+console.table(produtos)
