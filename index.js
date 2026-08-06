@@ -15,3 +15,6 @@ let produtos = [
 
 produtos.shift()
 console.table(produtos)
+
+produtos.unshift()
+console.table(produtos)
