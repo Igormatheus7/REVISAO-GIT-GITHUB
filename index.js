@@ -16,11 +16,5 @@ let produtos = [
 produtos.shift()
 console.table(produtos)
 
-produtos.unshift()
-console.table(produtos)
-
-const produtoEncontrado = produtos.find((produto) => {
-    console.log(produto)
-})
-
-
+const produtoEncontrado = produtos.find((produto) => produto.nome === "Iphone 13");
+console.log(produtoEncontrado);
