@@ -18,3 +18,9 @@ console.table(produtos)
 
 produtos.unshift()
 console.table(produtos)
+
+const produtoEncontrado = produtos.find((produto) => {
+    console.log(produto)
+})
+
+
